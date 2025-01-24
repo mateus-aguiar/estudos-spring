@@ -2,7 +2,6 @@ package academy.devdojo.springboot2.repository;
 
 import academy.devdojo.springboot2.domain.Anime;
 import academy.devdojo.springboot2.util.AnimeCreator;
-import jakarta.validation.ConstraintViolationException;
 import lombok.extern.log4j.Log4j2;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
@@ -10,6 +9,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
+import javax.validation.ConstraintViolationException;
 import java.util.List;
 import java.util.Optional;
 
