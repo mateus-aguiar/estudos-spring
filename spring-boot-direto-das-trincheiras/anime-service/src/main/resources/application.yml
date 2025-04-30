@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: anime-service
+  #A partir da versão 3.2 e jdk 21, é possível ativar threads virtuais, que utilizam menos recursos que threads normais.
+  threads:
+    virtual:
+      enabled: true
+
+server:
+  servlet:
+    context-path: /
+  error:
+    include-stacktrace: ON_PARAM
+  tomcat:
+    threads:
+      max: 20
