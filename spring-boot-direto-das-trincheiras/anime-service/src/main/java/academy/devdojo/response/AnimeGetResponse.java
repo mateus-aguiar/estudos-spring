@@ -3,12 +3,9 @@ package academy.devdojo.response;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.time.LocalDateTime;
-
-@Setter
 @Getter
-public class ProducerGetResponse {
+@Setter
+public class AnimeGetResponse {
     private Long id;
     private String name;
-    private LocalDateTime createdAt;
 }
